@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from be-fimal.netlify.app/lander.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2026 08:07:26 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=2f81041b-1e84-4292-bbd8-cf06c7073625
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="NFL Super Bowl 2027 — your trusted guide for championship football, playoff predictions, team analysis, and Super Bowl coverage." />
+  <title>Welcome — NFL Super Bowl 2027</title>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+      font-family: 'Georgia', 'Times New Roman', serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(rgba(0, 0, 0, 0.072), rgba(0, 0, 0, 0.059)), #0000002f url('assets/image/mobile.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #fff;
+      position: relative;
+      overflow-x: hidden;
+      filter: brightness(0.95);
+    }
+
+    @media (min-width: 769px) {
+      body {
+        background: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.075)), #00000011 url('assets/image/desktop.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        filter: brightness(0.95);
+      }
+    }
+
+    /* MAIN CONTENT */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Ball icon */
+    .ball {
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      display: block;
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-8px);
+      }
+    }
+
+    /* Brand */
+    .brand-eyebrow {
+      font-family: Arial, sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #f28c28;
+      margin-bottom: 0.8rem;
+    }
+
+    h1 {
+      font-family: 'Arial Black', Impact, sans-serif;
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.08;
+      letter-spacing: -1.5px;
+      color: #ffffff;
+      margin-bottom: 1.2rem;
+      text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 span {
+      color: #f28c28;
+    }
+
+    .tagline {
+      font-size: clamp(0.95rem, 2vw, 1.15rem);
+      color: rgba(255, 255, 255, 0.75);
+      max-width: 500px;
+      line-height: 1.75;
+      margin-bottom: 2.8rem;
+    }
+
+    /* CTA Button */
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: #7ad75a;
+      color: #0a120e;
+      font-family: Arial, sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      letter-spacing: 0.04em;
+      padding: 1rem 2.4rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 18px rgba(122, 215, 90, 0.35);
+      margin-bottom: 1.8rem;
+    }
+
+    .cta-btn:hover {
+      background: #68c94a;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(122, 215, 90, 0.45);
+    }
+
+    .cta-btn:active {
+      transform: translateY(0);
+    }
+
+    .cta-arrow {
+      font-size: 1.1rem;
+      transition: transform 0.2s;
+    }
+
+    .cta-btn:hover .cta-arrow {
+      transform: translateX(4px);
+    }
+
+    /* Trust line */
+    .trust {
+      font-family: Arial, sans-serif;
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 0.04em;
+    }
+
+    /* Divider dots */
+    .dots {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      margin: 2.5rem 0 0;
+      justify-content: center;
+    }
+
+    .dot-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .dot-sep {
+      color: rgba(255, 255, 255, 0.2);
+      font-size: 0.5rem;
+    }
+
+    /* FOOTER */
+    footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 1.2rem 2rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.35);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    footer a {
+      color: rgba(255, 255, 255, 0.45);
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover {
+      color: #f5a623;
+    }
+
+    .footer-links {
+      margin-bottom: 0.4rem;
+    }
+  </style>
+  <script>
+    (function () {
+      const config = {
+        PL: { tagline: "Polish NFL fans — follow teams, playoffs and Super Bowl coverage.", cta: "Wejdź do przewodnika →", href: "/?country=PL", bgMobile: "assets/image/loc-pl-mobile.png", bgDesktop: "assets/image/loc-pl-desktop.png" },
+        DE: { tagline: "Deutsche NFL-Fans — Teams, Playoffs und Super Bowl im Überblick.", cta: "Zum Guide →", href: "/?country=DE", bgMobile: "assets/image/loc-de-mobile.png", bgDesktop: "assets/image/loc-de-desktop.png" },
+        PT: { tagline: "Fãs portugueses da NFL — equipas, playoffs e Super Bowl.", cta: "Entrar no Guia →", href: "/?country=PT", bgMobile: "assets/image/loc-pt-mobile.png", bgDesktop: "assets/image/loc-pt-desktop.png" },
+        HU: { tagline: "Magyar NFL szurkolók — csapatok, playoffok és Super Bowl.", cta: "Belépés a kalauzba →", href: "/?country=HU", bgMobile: "assets/image/loc-hu-mobile.png", bgDesktop: "assets/image/loc-hu-desktop.png" },
+        IT: { tagline: "Tifosi italiani NFL — squadre, playoff e Super Bowl.", cta: "Entra nella guida →", href: "/?country=IT", bgMobile: "assets/image/loc-it-mobile.png", bgDesktop: "assets/image/loc-it-desktop.png" },
+        AU: { tagline: "Australian NFL fans — teams, playoffs and Super Bowl coverage.", cta: "Enter the Guide →", href: "/?country=AU", bgMobile: "assets/image/mobile.png", bgDesktop: "assets/image/desktop.png" },
+        NO: { tagline: "Norske NFL-fans — lag, sluttspill og Super Bowl-dekning.", cta: "Gå til guiden →", href: "/?country=NO", bgMobile: "assets/image/mobile.png", bgDesktop: "assets/image/desktop.png" },
+        DEFAULT: { tagline: "Your trusted guide to championship football — NFL teams, playoff predictions, player analysis, and the path to Super Bowl LXI.", cta: "Enter the Guide →", href: "/", bgMobile: "assets/image/mobile.png", bgDesktop: "assets/image/desktop.png" }
+      };
+
+      const tzMap = {
+        "Europe/Warsaw": "PL", "Europe/Prague": "PL", // sometimes
+        "Europe/Berlin": "DE", "Europe/Frankfurt": "DE", "Europe/Munich": "DE",
+        "Europe/Copenhagen": "DK",
+        "Europe/Lisbon": "PT", "Atlantic/Azores": "PT", "Atlantic/Madeira": "PT",
+        "Europe/Budapest": "HU",
+        "Europe/Rome": "IT", "Europe/Milan": "IT",
+        "Australia/Sydney": "AU", "Australia/Melbourne": "AU", "Australia/Brisbane": "AU", "Australia/Perth": "AU", "Australia/Adelaide": "AU",
+        "Europe/Oslo": "NO"
+      };
+
+      function byQuery() {
+        try {
+          const params = new URLSearchParams(window.location.search);
+          let c = (params.get('country') || params.get('cc') || params.get('loc') || '').toUpperCase();
+          if (c && config.hasOwnProperty(c)) return c;
+        } catch (e) { }
+        return null;
+      }
+
+      function byStorage() {
+        try {
+          const c = (localStorage.getItem('country') || '').toUpperCase();
+          if (c && config.hasOwnProperty(c)) return c;
+        } catch (e) { }
+        return null;
+      }
+
+      function byTZ() {
+        try {
+          const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+          if (tzMap[tz]) return tzMap[tz];
+          // loose match
+          const t = tz.toLowerCase();
+          if (t.includes('berlin') || t.includes('frankfurt') || t.includes('munich')) return 'DE';
+          if (t.includes('warsaw')) return 'PL';
+          if (t.includes('copenhagen')) return 'DK';
+          if (t.includes('lisbon') || t.includes('madeira') || t.includes('azores')) return 'PT';
+          if (t.includes('budapest')) return 'HU';
+          if (t.includes('rome') || t.includes('milan')) return 'IT';
+          if (t.includes('sydney') || t.includes('melbourne') || t.includes('brisbane') || t.includes('perth') || t.includes('adelaide')) return 'AU';
+          if (t.includes('oslo')) return 'NO';
+        } catch (e) { }
+        return null;
+      }
+
+      function byLang() {
+        try {
+          const lang = (navigator.language || '').toUpperCase();
+          for (const k of Object.keys(config)) {
+            if (k === 'DEFAULT') continue;
+            if (lang.startsWith(k) || lang.includes(k)) return k;
+          }
+        } catch (e) { }
+        return null;
+      }
+
+      function byPath() {
+        try {
+          const path = (location.pathname || '').toLowerCase();
+          for (const k of Object.keys(config)) {
+            if (k === 'DEFAULT') continue;
+            if (path.includes(k.toLowerCase())) return k;
+          }
+        } catch (e) { }
+        return null;
+      }
+
+      async function byIP() {
+        // Free, CORS-friendly on http://127.0.0.1 too
+        try {
+          const res = await fetch('https://ipapi.co/json/', { cache: 'no-store' });
+          if (!res.ok) throw new Error('ipapi fail');
+          const data = await res.json();
+          const cc = (data.country_code || '').toUpperCase();
+          if (cc && config.hasOwnProperty(cc)) return cc;
+        } catch (e) { }
+        return null;
+      }
+
+        function apply(loc) {
+        const d = config[loc] || config.DEFAULT;
+        const tagline = document.getElementById('tagline');
+        const cta = document.getElementById('cta-btn');
+        if (tagline && d.tagline) tagline.textContent = d.tagline;
+        if (cta) {
+          if (d.cta) {
+            cta.innerHTML = d.cta.includes('→')
+              ? d.cta.replace('→', '<span class="cta-arrow">→</span>')
+              : (d.cta + ' <span class="cta-arrow">→</span>');
+          }
+          if (d.href) cta.href = d.href;
+        }
+        const body = document.body;
+        const isDesktop = window.matchMedia('(min-width: 769px)').matches;
+        let bg = isDesktop ? (d.bgDesktop || d.bgMobile) : (d.bgMobile || d.bgDesktop);
+        const bgDefaultMobile = 'assets/image/mobile.png';
+        const bgDefaultDesktop = 'assets/image/desktop.png';
+        const testImg = new Image();
+        testImg.onerror = function() {
+          const fallback = isDesktop ? bgDefaultDesktop : bgDefaultMobile;
+          body.style.backgroundColor = '#000';
+          body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.075)), url('" + fallback + "')";
+          body.style.backgroundSize = 'cover';
+          body.style.backgroundPosition = 'center';
+          body.style.backgroundRepeat = 'no-repeat';
+          body.style.backgroundAttachment = 'fixed';
+          body.style.filter = 'brightness(0.95)';
+        };
+        testImg.onload = function() {
+          body.style.backgroundColor = '#000';
+          body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.075)), url('" + bg + "')";
+          body.style.backgroundSize = 'cover';
+          body.style.backgroundPosition = 'center';
+          body.style.backgroundRepeat = 'no-repeat';
+          body.style.backgroundAttachment = 'fixed';
+          body.style.filter = 'brightness(0.95)';
+        };
+        testImg.src = bg;
+
+        // Share with popup.js
+        try { document.documentElement.dataset.country = loc; localStorage.setItem('country', loc); } catch (e) { }
+      }
+
+      document.addEventListener('DOMContentLoaded', async function () {
+        let loc = byQuery() || byStorage() || byTZ() || byPath() || byLang() || 'DEFAULT';
+        apply(loc);
+
+        // Try IP after first paint to catch actual VPN exit country (overrides if different)
+        const ipLoc = await byIP();
+        if (ipLoc && ipLoc !== loc) {
+          loc = ipLoc;
+          apply(loc);
+        }
+
+        // Handle resize cleanly
+        const mq = window.matchMedia('(min-width: 769px)');
+        mq.addEventListener('change', function () { apply(loc); });
+      });
+    })();
+  </script>
+</head>
+
+<body>
+
+  <main>
+    <span class="ball">🏈</span>
+    <p class="brand-eyebrow">America's Game</p>
+    <h1>Welcome to<br><span>NFL Super Bowl 2027</span></h1>
+    <p class="tagline" id="tagline">Your trusted guide to championship football — NFL teams, playoff predictions, player
+      analysis, and the path to Super Bowl LXI.</p>
+    <a class='cta-btn' id="cta-btn" href='/'>
+      Enter the Guide <span class="cta-arrow">→</span>
+    </a>
+    <p class="trust">Trusted by NFL fans nationwide 🏈</p>
+    <div class="dots">
+      <span class="dot-item">🏈 AFC East</span>
+      <span class="dot-sep">●</span>
+      <span class="dot-item">🏆 Playoffs</span>
+      <span class="dot-sep">●</span>
+      <span class="dot-item">⭐ Super Bowl</span>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href='index.html#privacy'>Privacy Policy</a>
+      <a href='index.html#terms'>Terms of Service</a>
+      <a href='contact.html'>Contact</a>
+    </div>
+    © 2025 NFL Super Bowl 2027 — All rights reserved.
+  </footer>
+  <script src="assets/popup.js"></script>
+</body>
+
+</html>
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public"
+  data-netlify-site-id="2f81041b-1e84-4292-bbd8-cf06c7073625" data-app-host="app.netlify.com"></script>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=2f81041b-1e84-4292-bbd8-cf06c7073625
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ — NFL Super Bowl 2027</title>
+    <style>
+      :root {
+        --colorRgbFacetsTeal600: 122 215 90;
+        --colorTealAction: var(--colorRgbFacetsTeal600);
+        --colorRgbFacetsNeutralLight200: 42 49 55;
+        --colorHr: var(--colorRgbFacetsNeutralLight200);
+        --colorRgbFacetsNeutralLight700: 180 190 200;
+        --colorGrayDarkest: var(--colorRgbFacetsNeutralLight700);
+        --colorGrayLighter: var(--colorRgbFacetsNeutralLight200);
+        --colorText: var(--colorGrayDarkest);
+        --effectShadowLightShallow: 0 1px 10px 0 rgba(0,0,0,0.2),
+          0 2px 4px 0 rgba(0,0,0,0.12);
+        --colorRgbFacetsNeutralDark900: 11 15 18;
+      }
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol";
+        background: #0b0f12;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+        color: rgb(var(--colorText));
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: rgb(var(--colorRgbFacetsNeutralDark900));
+        }
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.375rem;
+        line-height: 1;
+      }
+
+      h1 + p {
+        margin-top: 8px;
+      }
+
+      .main {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .card {
+        position: relative;
+        width: 75%;
+        max-width: 364px;
+        padding: 24px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: var(--effectShadowLightShallow);
+        border: 1px solid rgb(var(--colorGrayLighter));
+      }
+
+      a {
+        margin: 0;
+        font-weight: 600;
+        color: rgb(var(--colorTealAction));
+        text-decoration-skip-ink: all;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
+        text-decoration-color: rgb(var(--colorTealAction) / 0.5);
+        transition: text-decoration-color 0.15s ease-in-out;
+      }
+
+      a:hover,
+      a:focus-visible {
+        text-decoration-color: rgb(var(--colorTealAction));
+      }
+
+      p:last-of-type {
+        margin-bottom: 0;
+      }
+
+      hr {
+        border: 0;
+        height: 1px;
+        background: rgb(var(--colorHr));
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+
+      .your-site {
+        font-size: 0.875rem;
+      }
+      
+      nav { position: sticky; top: 0; z-index: 100; background: #0f4524; height: 64px; display: flex; align-items: center; padding: 0 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+      .nav-inner { max-width: 1100px; width: 100%; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+      .logo { font-family: 'Arial Black', 'Impact', sans-serif; font-size: 1.3rem; font-weight: 900; letter-spacing: -0.5px; color: white; text-decoration: none; display: flex; align-items: center; gap: 10px; }
+      .logo-badge { background: #f5a623; color: #0f4524; width: 34px; height: 34px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; }
+      .nav-links { display: flex; gap: 0; list-style: none; }
+      .nav-links a { color: rgba(255,255,255,0.8); text-decoration: none; font-family: Arial, sans-serif; font-size: 0.82rem; letter-spacing: 0.04em; padding: 0.5rem 0.9rem; transition: color 0.2s; }
+      .nav-links a:hover { color: #f5a623; }
+      .nav-cta { background: #f5a623; color: #0f4524 !important; font-weight: 700 !important; border-radius: 4px; padding: 0.45rem 1rem !important; }
+      .page-hero { background: #0f4524; color: white; padding: 3.5rem 2rem 3rem; }
+      .page-hero-inner { max-width: 1100px; margin: 0 auto; }
+      .page-eyebrow { font-family: Arial, sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: #f5a623; margin-bottom: 0.6rem; }
+      .page-hero h1 { font-family: 'Arial Black', Impact, sans-serif; font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 900; line-height: 1.1; letter-spacing: -1px; margin-bottom: 0.8rem; }
+      .page-hero p { color: rgba(255,255,255,0.75); font-size: 0.95rem; }
+      .content-wrap { max-width: 800px; margin: 0 auto; padding: 3.5rem 2rem; font-family: 'Georgia', 'Times New Roman', serif; }
+      .faq-list { max-width: 750px; margin: 0 auto; }
+      .faq-item { border-bottom: 1px solid #d8e2d8; padding: 1.4rem 0; }
+      .faq-item:first-child { border-top: 1px solid #d8e2d8; }
+      .faq-q { font-family: Arial, sans-serif; font-weight: 700; font-size: 0.98rem; color: #000000; margin-bottom: 0.5rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; transition: color 0.2s; }
+      .faq-q:hover { color: #000000; }
+      .faq-q span { font-size: 1.3rem; color: #000000; flex-shrink: 0; margin-left: 1rem; }
+      .faq-a { font-size: 0.9rem; color: #000000; line-height: 1.7; display: none; }
+      .faq-a.open { display: block; }
+      footer { background: #0f4524; color: rgba(255,255,255,0.7); padding: 2rem; font-family: Arial, sans-serif; font-size: 0.82rem; text-align: center; }
+      footer a { color: rgba(255,255,255,0.6); text-decoration: none; }
+      footer a:hover { color: #f5a623; }
+      .footer-links { display: flex; gap: 1.5rem; justify-content: center; margin-bottom: 0.8rem; flex-wrap: wrap; }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-inner">
+        <a class='logo' href='index.html'>
+          <span class="logo-badge">🏈</span>
+          NFL Super Bowl 2027
+        </a>
+        <ul class="nav-links">
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='index.html#teams'>Teams</a></li>
+          <li><a href='index.html#analysis'>Analysis</a></li>
+          <li><a href='index.html#blog'>Blog</a></li>
+          <li><a href='faq.html'>FAQ</a></li>
+          <li><a class='nav-cta' href='index.html#teams'>Explore Now</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="page-hero">
+      <div class="page-hero-inner">
+        <div class="page-eyebrow">Common Questions</div>
+        <h1>Frequently Asked Questions</h1>
+        <p>Your guide to understanding NFL football and the path to Super Bowl LXI.</p>
+      </div>
+    </div>
+
+    <div class="content-wrap">
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFAQ(this)">What is a down in NFL football? <span>+</span></div>
+          <div class="faq-a">A down is a single play starting when the ball is snapped from the center. The offense gets four downs to move the ball at least 10 yards forward. If successful, they receive four new downs; if they fail, possession turns over to the defense. Strategic decisions about when to "go for it" or punt are crucial to NFL gameplay.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFAQ(this)">How do NFL playoffs work? <span>+</span></div>
+          <div class="faq-a">Twelve teams make the playoffs: the top 3 teams from each conference plus 3 wild card teams per conference (ranked by record). The wild card round features the 4th-6th seeded teams, and the top 3 seeds get byes into the divisional round. The AFC and NFC champions then meet in Super Bowl LXI on February 7, 2027.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFAQ(this)">What's the difference between AFC and NFC? <span>+</span></div>
+          <div class="faq-a">The AFC (American Football Conference) and NFC (National Football Conference) are the two conferences that make up the NFL, each with 16 teams split into four divisions. During the regular season, teams play primarily within their conference and division. The AFC and NFC champions then face off in the Super Bowl.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFAQ(this)">How many teams are in the NFL? <span>+</span></div>
+          <div class="faq-a">There are 32 teams in the NFL, divided equally between the AFC and NFC. Each conference has 4 divisions: East, West, South, and North. Every team plays a 17-game regular season from September through December, followed by the playoffs in January and February leading to Super Bowl LXI.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFAQ(this)">How long is a Super Bowl game? <span>+</span></div>
+          <div class="faq-a">A typical NFL game lasts about 3 to 3.5 hours, including pregame coverage, kickoff, halftime show, and postgame analysis. Super Bowl LXI, being the championship game, may run slightly longer due to extended commercials and entertainment. The actual game time consists of four 15-minute quarters, but the clock stops frequently for incomplete passes, penalties, timeouts, and injuries.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFAQ(this)">What does EPA mean in NFL stats? <span>+</span></div>
+          <div class="faq-a">EPA (Expected Points Added) measures how many points a play gains or loses for a team based on field position. Positive EPA plays advance a team's scoring probability. It's an advanced analytics metric that's becoming increasingly popular in NFL analysis to evaluate quarterbacks, play-calling, and team performance on a play-by-play basis.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFAQ(this)">When is Super Bowl LXI in 2027? <span>+</span></div>
+          <div class="faq-a">Super Bowl LXI (61) is scheduled for February 7, 2027. It will be played between the AFC Champion and the NFC Champion at a neutral stadium location. It's the most watched sporting event in America and attracts over 115 million viewers worldwide, making it the ultimate stage for NFL supremacy.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFAQ(this)">How do teams qualify for the Super Bowl? <span>+</span></div>
+          <div class="faq-a">Teams qualify for the Super Bowl by winning the playoffs in their respective conference. The Wild Card round determines the 4-6 seeds, the Divisional Round narrows the field to the top seeds, and the Conference Championship is the final matchup. The winner of the AFC Conference Championship faces the winner of the NFC Conference Championship in Super Bowl LXI.</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-links">
+        <a href='/'>Home</a>
+        <a href='/#teams'>Teams</a>
+        <a href='/#blog'>Blog</a>
+        <a href='/privacy'>Privacy Policy</a>
+        <a href='/terms'>Terms of Service</a>
+        <a href='/contact'>Contact</a>
+      </div>
+      <p>© 2025 NFL Super Bowl 2027 Guide. All rights reserved.</p>
+    </footer>
+
+    <script>
+    function toggleFAQ(el) {
+      var answer = el.nextElementSibling;
+      var icon = el.querySelector('span');
+      var isOpen = answer.classList.contains('open');
+      answer.classList.toggle('open');
+      icon.textContent = isOpen ? '+' : '−';
+    }
+    </script>
+  </body>
+</html>
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="2f81041b-1e84-4292-bbd8-cf06c7073625" data-app-host="app.netlify.com"></script>
